@@ -8,6 +8,8 @@
 - To test your evaluation skills, locate two public data visualizations online, one good and one bad  
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
+- Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
+300 words for your good example and 500 for your bad example)
     
     
 [Bad Example]
@@ -27,8 +29,18 @@
 
       
       ```
-- Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
-300 words for your good example and 500 for your bad example)
+
+[Good Example]
+- Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+The good example I chose is from the CBC's coverage of the recent Canadian Federal Elections: https://www.cbc.ca/news/politics/charting-the-vote-thieves-a-visual-breakdown-of-party-gains-and-losses-1.7522558
+The visualization uses Sankey diagram to demonstrate the shift in parliamentary seats, using both colour and tracks to show not only which parties gained and lost seats, but also the paths from one party to the other. It uses Gestalt design principles to effectively convey the information required to interpret the graph to understand the overall political party shifts. It is a good example of the Effectiveness principle, as it highlights the most important attribute (seat shifts to-and-from parties before and after elections). It complements well the other data visualization that accompanies the newspiece, a table view.
+
+- How could this data visualization have been improved?  
+1. To better follow the "overview first, zoom and filter, then details on demand", the graph could offer the number of seats each party had before the election on the column on the left, instead of only the resulting number post-election on the right, this would help reduce cognitive load by immediately communicating how many seats each party had before and after.
+The title could be more neutral to avoid biases in interpretation.
+
+
+
 
 ### Why am I doing this assignment?:
 
