@@ -8,8 +8,34 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
 
+
 [Dataset chosen]
 https://open.toronto.ca/dataset/library-branch-programs-and-events-feed/
+
+[Excel Visualization]
+
+What software did you use to create your data visualization?
+Microsoft Excel.
+
+Who is your intended audience?
+Toronto Public Library (TPL) decision-makers, for example: branch administrators, program coordinators, and policymakers. This visualization is intended to help them understand which branches have most events planned for the near future (May to September 2025). 
+
+What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
+Since Excel has more limited visualization capabilities, I tried to make the bars in the barplot look like book spines to match the theme. I also only focused on the top 10 branches to avoid cognitive overload. But eventually when speaking to TPL stakeholders we could adjust visualization to their needs, for example Top 10 in one region or specialized in a age group audience.
+
+How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+Using standard Excel package and straigthforward calculation of events per branch.
+
+How did you ensure that your data visualization is accessible?
+I took into consideration the choice of high-contrast colors, labels were placed horizontally, sufficiently large font sizes (minimum 14 point) and ample space between components to ensure good readability. A supporting data table provides numerical values as an alternative data format. Title and subtitles used plain language.
+
+Who are the individuals and communities who might be impacted by your visualization?
+Other than TPl stakeholders who need to make informed decisions, hopefully local communities can identify branches with most events offered and potentially journalists to use as a data source.
+
+How did you choose which features of your chosen dataset to include or exclude from your visualization?
+I deliberately limited the visualization to the top 10 branches for clarity, avoiding cognitive overload. I also excluded more granular details like event types, target demographics to maintain simplicity.
+
+What ‘underwater labour’ contributed to your final data visualization product?
 
 [Python Visualization]
     > What software did you use to create your data visualization?
