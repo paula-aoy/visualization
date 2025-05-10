@@ -7,21 +7,35 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+
+[Dataset chosen]
+https://open.toronto.ca/dataset/library-branch-programs-and-events-feed/
+
+[Python Visualization]
     > What software did you use to create your data visualization?
+    Python in Jypyter Notebooks.
 
     > Who is your intended audience? 
-    
+    Toronto Public Library decision-makers, for example: branch administrators, program coordinators, and policymakers. This visualization is intended to help identify how the top 10 library branches specialize in specific event types. This should help them understand where there is overlap or gaps in event types and make informed decisions about resource allocation. For example, both Toronto Reference Library and Bloor/Gladstone show strong specialization in "Book Clubs & Writers Groups", is the overlap useful to the communities served? Additionally, there seems to be a gap in "Storytelling" events since only Albert Campbell specializes in it.
+
     > What information or message are you trying to convey with your visualization? 
+    Where there is overlap or gap in event type offerings. The visualization currently focuses only on the top 10 branches, but it would also be possible to use the same type of analysis and visualization to group branches per audience type or geographical location.
+
     
-    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
+    My main concern here was with cognitive overload: how to communicate the information without being overwhelming. Some of the initial attempts had too many colours, or were using colours that were not accessible. I also tried barplots first but it was way too much to look at.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    Adhering to FAIR principles, I used open-source Python libraries, meaning the code is reproducible using the same libraries.
     
-    > How did you ensure that your data visualization is accessible?  
+    > How did you ensure that your data visualization is accessible? 
+    I intentionally played around with colour schemes to avoid conveying information using colour only. Since the heatmap also had enough space to add the numerical values, it would not be a total blocker for colourblind people, but still I wanted to make sure. I also tried adding textures but that was way too much cognitive overload, so I removed in the end. Also I was careful with descriptive titles and labels to make sure the content was easy to understand.
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+    My hope would be community members using the TPL system would benefit from more diverse event types offered. But also the administrators at TPL and branch managers can also make more informed decisions about events they want to organize or discontinue.
     
-    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization?
+    I focused only on the top 10 libraries and top 10 event types to prevent cognitive overload. The proposed Specialization Index helped by normalizing the dataset for branch size differences, allowing for clearer comparison. 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
 
