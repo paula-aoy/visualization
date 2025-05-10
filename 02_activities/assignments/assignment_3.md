@@ -45,9 +45,8 @@ What ‘underwater labour’ contributed to your final data visualization produc
     Toronto Public Library decision-makers, for example: branch administrators, program coordinators, and policymakers. This visualization is intended to help identify how the top 10 library branches specialize in specific event types. This should help them understand where there is overlap or gaps in event types and make informed decisions about resource allocation. For example, both Toronto Reference Library and Bloor/Gladstone show strong specialization in "Book Clubs & Writers Groups", is the overlap useful to the communities served? Additionally, there seems to be a gap in "Storytelling" events since only Albert Campbell specializes in it.
 
     > What information or message are you trying to convey with your visualization? 
-    Where there is overlap or gap in event type offerings. The visualization currently focuses only on the top 10 branches, but it would also be possible to use the same type of analysis and visualization to group branches per audience type or geographical location.
+    This second visualization is meant as a companion to the previous one made on Excel, to complement. It shows where there is overlap or gap in event type offerings. Note the visualization also focuses only on the same top 10 branches with most events, but eventually it would also be possible to use the same type of analysis and visualization to group branches per audience type or geographical location.
 
-    
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
     My main concern here was with cognitive overload: how to communicate the information without being overwhelming. Some of the initial attempts had too many colours, or were using colours that were not accessible. I also tried barplots first but it was way too much to look at.
     
@@ -61,7 +60,7 @@ What ‘underwater labour’ contributed to your final data visualization produc
     My hope would be community members using the TPL system would benefit from more diverse event types offered. But also the administrators at TPL and branch managers can also make more informed decisions about events they want to organize or discontinue.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization?
-    I focused only on the top 10 libraries and top 10 event types to prevent cognitive overload. The proposed Specialization Index helped by normalizing the dataset for branch size differences, allowing for clearer comparison. 
+    I focused only on the same top 10 libraries from the Excel Visualizationand top 10 event types to prevent cognitive overload. The proposed Specialization Index helped by normalizing the dataset for branch size differences, allowing for clearer comparison. 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
 
