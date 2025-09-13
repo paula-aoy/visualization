@@ -7,21 +7,60 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+
+
+[Dataset chosen]
+https://open.toronto.ca/dataset/library-branch-programs-and-events-feed/
+
+[Excel Visualization]
+
+What software did you use to create your data visualization?
+Microsoft Excel.
+
+Who is your intended audience?
+Toronto Public Library (TPL) decision-makers, for example: branch administrators, program coordinators, and policymakers. This visualization is intended to help them understand which branches have most events planned for the near future (May to September 2025). 
+
+What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
+Since Excel has more limited visualization capabilities, I tried to make the bars in the barplot look like book spines to match the theme. I also only focused on the top 10 branches to avoid cognitive overload. But eventually when speaking to TPL stakeholders we could adjust visualization to their needs, for example Top 10 in one region or specialized in a age group audience.
+
+How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+Using standard Excel package and straigthforward calculation of events per branch.
+
+How did you ensure that your data visualization is accessible?
+I took into consideration the choice of high-contrast colors, labels were placed horizontally, sufficiently large font sizes (minimum 14 point) and ample space between components to ensure good readability. A supporting data table provides numerical values as an alternative data format. Title and subtitles used plain language.
+
+Who are the individuals and communities who might be impacted by your visualization?
+Other than TPl stakeholders who need to make informed decisions, hopefully local communities can identify branches with most events offered and potentially journalists to use as a data source.
+
+How did you choose which features of your chosen dataset to include or exclude from your visualization?
+I deliberately limited the visualization to the top 10 branches for clarity, avoiding cognitive overload. I also excluded more granular details like event types, target demographics to maintain simplicity.
+
+What ‘underwater labour’ contributed to your final data visualization product?
+
+[Python Visualization]
     > What software did you use to create your data visualization?
+    Python in Jypyter Notebooks.
 
     > Who is your intended audience? 
-    
+    Toronto Public Library decision-makers, for example: branch administrators, program coordinators, and policymakers. This visualization is intended to help identify how the top 10 library branches specialize in specific event types. This should help them understand where there is overlap or gaps in event types and make informed decisions about resource allocation. For example, both Toronto Reference Library and Bloor/Gladstone show strong specialization in "Book Clubs & Writers Groups", is the overlap useful to the communities served? Additionally, there seems to be a gap in "Storytelling" events since only Albert Campbell specializes in it.
+
     > What information or message are you trying to convey with your visualization? 
-    
-    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    This second visualization is meant as a companion to the previous one made on Excel, to complement. It shows where there is overlap or gap in event type offerings. Note the visualization also focuses only on the same top 10 branches with most events, but eventually it would also be possible to use the same type of analysis and visualization to group branches per audience type or geographical location.
+
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
+    My main concern here was with cognitive overload: how to communicate the information without being overwhelming. Some of the initial attempts had too many colours, or were using colours that were not accessible. I also tried barplots first but it was way too much to look at.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    Adhering to FAIR principles, I used open-source Python libraries, meaning the code is reproducible using the same libraries.
     
-    > How did you ensure that your data visualization is accessible?  
+    > How did you ensure that your data visualization is accessible? 
+    I intentionally played around with colour schemes to avoid conveying information using colour only. Since the heatmap also had enough space to add the numerical values, it would not be a total blocker for colourblind people, but still I wanted to make sure. I also tried adding textures but that was way too much cognitive overload, so I removed in the end. Also I was careful with descriptive titles and labels to make sure the content was easy to understand.
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+    My hope would be community members using the TPL system would benefit from more diverse event types offered. But also the administrators at TPL and branch managers can also make more informed decisions about events they want to organize or discontinue.
     
-    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization?
+    I focused only on the same top 10 libraries from the Excel Visualizationand top 10 event types to prevent cognitive overload. The proposed Specialization Index helped by normalizing the dataset for branch size differences, allowing for clearer comparison. 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
 
